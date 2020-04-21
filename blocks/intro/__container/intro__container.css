@@ -1,0 +1,24 @@
+.intro__container {
+    max-width: calc(100vw*(984/1280));
+    margin: 92px auto;
+}
+
+@media (max-width: 1279px) {
+    .intro__container {
+        max-width: calc(100vw*(928/1024));
+    }
+}
+
+@media (max-width: 1023px) {
+    .intro__container {
+        max-width: calc(100vw*(720/768));
+        margin: 88px auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro__container {
+        max-width: 90vw;
+        margin: 64px auto;
+    }
+}

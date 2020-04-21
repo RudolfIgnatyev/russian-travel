@@ -1,0 +1,28 @@
+.lead__image {
+    width: 984px;
+    max-width: 984px;
+    object-fit: contain;
+    margin: 64px auto 0;
+    display: block;
+}
+
+@media (max-width: 1279px) {
+    .lead__image {
+        width: calc(100vw*(928/1024));
+        margin: 56px auto 0;
+    }
+}
+
+@media (max-width: 1023px) {
+    .lead__image {
+        width: 100%;
+        margin: 56px auto 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__image {
+        width: 100%;
+        margin: 40px auto 0;
+    }
+}

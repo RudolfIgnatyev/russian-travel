@@ -1,0 +1,27 @@
+.intro__title {
+    max-width: calc(100vw*(690/1280));
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 1.07;
+    margin: 0 0 40px;
+}
+
+@media (max-width: 1279px) {
+    .intro__title {
+        max-width: calc(100vw*(690/1024));
+    }
+}
+
+@media (max-width: 1023px) {
+    .intro__title {
+        max-width: calc(100vw*(720/768));
+    }
+}
+
+@media (max-width: 767px) {
+    .intro__title {
+        max-width: 90vw;
+        font-size: 32px;
+        line-height: 1.07;
+    }
+}
