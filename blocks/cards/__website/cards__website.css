@@ -1,11 +1,11 @@
 .cards__website {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 @media (max-width: 767px) {
-    .cards__website {
-        display: none;
-    }
+  .cards__website {
+    display: none;
+  }
 }

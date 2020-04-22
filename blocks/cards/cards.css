@@ -1,5 +1,6 @@
 @import url(./__item/cards__item.css);
 @import url(./__title/cards__title.css);
+@import url(./__title/_rows/cards__title_rows_two.css);
 @import url(./__website/cards__website.css);
 @import url(./__url-heading/cards__url-heading.css);
 @import url(./__link/cards__link.css);
@@ -7,29 +8,29 @@
 @import url(./__paragraphs/cards__paragraphs.css);
 @import url(./__paragraph/cards__paragraph.css);
 .cards {
-    max-width: calc(920px + 40px + 484px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    padding-left: 0;
-    list-style: none;
+  max-width: calc(920px + 40px + 484px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
 }
 
 @media (max-width: 1279px) {
-    .cards {
-        max-width: calc(791px + 32px + 456px);
-    }
+  .cards {
+    max-width: calc(791px + 32px + 456px);
+  }
 }
 
 @media (max-width: 1023px) {
-    .cards {
-        max-width: calc(643px + 28px + 352px);
-    }
+  .cards {
+    max-width: calc(643px + 28px + 352px);
+  }
 }
 
 @media (max-width: 767px) {
-    .cards {
-        max-width: 767px;
-    }
+  .cards {
+    max-width: 767px;
+  }
 }
